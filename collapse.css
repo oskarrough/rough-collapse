@@ -24,7 +24,7 @@
 	border: 5px solid;
 	margin-bottom: 1em;
 }
-.collapse-panel.active {
+.collapse-panel.isActive {
 	border-color: green;
 }
 .collapse-title a {
