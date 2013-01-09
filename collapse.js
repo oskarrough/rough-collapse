@@ -13,8 +13,13 @@
 
 	// Toggle on click
 	$collapse.find('.collapse-title').click(function() {
+
+		// Hide any open panels
 		$allPanels.removeClass('isActive').find('.collapse-content').slideUp(200);
+
+		// Mark the clicked one as active and show it
 		$(this).parent().addClass('isActive').find('.collapse-content').slideDown(200);
+
 		return false;
 	});
 

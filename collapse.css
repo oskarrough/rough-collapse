@@ -1,21 +1,23 @@
 /*
 	Rough collapse
 	by Oskar Rough Mosumgaard
+	http://github.com/oskarrough/rough-collapse
 */
 
+
+
+/* Normalize isn't needed but it does make things easier */
 @import url(components/normalize-css/normalize.css);
 
-/* neccesary styles*/
-.collapse {
-
-}
+/* Neccesary styles (nothing, in this case) */
+.collapse {}
 .collapse-panel {}
 .collapse-title {}
 .collapse-title a {}
 .collapse-content {}
 
 
-/* makeup, no need to include these styles in production */
+/* Makeup (no need to include these in production) */
 .collapse {
 	max-width: 20em;
 	margin: 2em auto;
