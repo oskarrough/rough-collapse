@@ -1,0 +1,43 @@
+/*
+	Rough collapse
+	by Oskar Rough Mosumgaard
+*/
+
+@import url(components/normalize-css/normalize.css);
+
+/* neccesary styles*/
+.collapse {
+
+}
+.collapse-panel {}
+.collapse-title {}
+.collapse-title a {}
+.collapse-content {}
+
+
+/* makeup, no need to include these styles in production */
+.collapse {
+	max-width: 20em;
+	margin: 2em auto;
+}
+.collapse-panel {
+	border: 5px solid;
+	margin-bottom: 1em;
+}
+.collapse-panel.active {
+	border-color: green;
+}
+.collapse-title a {
+	display: block;
+	padding: 1em;
+	color: black;
+}
+.collapse-title a:hover {
+	color: green;
+}
+.collapse-content {
+	padding: 0 1em 1em;
+}
+.collapse h3 {
+	margin: 0;
+}
