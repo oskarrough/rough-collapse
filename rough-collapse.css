@@ -6,40 +6,37 @@
 
 
 
-/* Normalize isn't needed but it does make things easier */
-@import url(components/normalize-css/normalize.css);
-
 /* Neccesary styles (nothing, in this case) */
-.collapse {}
-.collapse-panel {}
-.collapse-title {}
-.collapse-title a {}
-.collapse-content {}
+.rough-collapse {}
+.rough-collapse__panel {}
+.rough-collapse__title {}
+.rough-collapse__title a {}
+.rough-collapse__content {}
 
 
 /* Makeup (no need to include these in production) */
-.collapse {
+.rough-collapse {
 	max-width: 20em;
 	margin: 2em auto;
 }
-.collapse-panel {
+.rough-collapse__panel {
 	border: 5px solid;
 	margin-bottom: 1em;
 }
-.collapse-panel.isActive {
+.rough-collapse__panel.isActive {
 	border-color: green;
 }
-.collapse-title a {
+.rough-collapse__title a {
 	display: block;
 	padding: 1em;
 	color: black;
 }
-.collapse-title a:hover {
+.rough-collapse__title a:hover {
 	color: green;
 }
-.collapse-content {
+.rough-collapse__content {
 	padding: 0 1em 1em;
 }
-.collapse h3 {
+.rough-collapse h3 {
 	margin: 0;
 }

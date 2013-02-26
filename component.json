@@ -1,9 +1,9 @@
 {
 	"name": "rough-collapse",
-	"description": "Rough collapses",
-	"version": "0.1.0",
+	"description": "Rough collapse",
+	"version": "0.2",
 	"author": "Oskar Rough Mosumgaard",
-	"main": ["collapse.html", "collapse.css", "collapse.js"],
+	"main": ["rough-collapse.html", "rough-collapse.css", "rough-collapse.js", "README.md"],
 	"dependencies": {
 		"jquery": "~1.8.3"
 	},
